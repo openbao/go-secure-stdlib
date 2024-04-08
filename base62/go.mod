@@ -1,4 +1,4 @@
-module github.com/openabo/go-secure-stdlib/base62
+module github.com/openbao/go-secure-stdlib/base62
 
 go 1.22.1
 
