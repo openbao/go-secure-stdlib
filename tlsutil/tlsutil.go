@@ -12,8 +12,8 @@ import (
 	"net"
 	"strings"
 
-	"github.com/hashicorp/go-secure-stdlib/parseutil"
-	"github.com/hashicorp/go-secure-stdlib/strutil"
+	"github.com/openbao/go-secure-stdlib/parseutil"
+	"github.com/openbao/go-secure-stdlib/strutil"
 )
 
 var ErrInvalidCertParams = errors.New("invalid certificate parameters")

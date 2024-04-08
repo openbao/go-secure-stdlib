@@ -5,8 +5,8 @@ package configutil
 
 import (
 	"github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/go-secure-stdlib/listenerutil"
-	"github.com/hashicorp/go-secure-stdlib/pluginutil/v2"
+	"github.com/openbao/go-secure-stdlib/listenerutil"
+	"github.com/openbao/go-secure-stdlib/pluginutil/v2"
 )
 
 // getOpts - iterate the inbound Options and return a struct

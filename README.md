@@ -1,8 +1,8 @@
-Stdlib for HashiCorp Secure products
+Stdlib for OpenBao Secure products
 =================
 
-These libraries are maintained by engineers in the HashiCorp's Secure division
-as a stdlib for its projects -- Vault, Vault plugins, Boundary, etc. -- to
+These libraries are maintained by engineers in the OpenBao community
+as a stdlib for its projects -- Bao -- to
 reduce code duplication and increase consistency.
 
 Each library is its own Go module, although some of them may have dependencies

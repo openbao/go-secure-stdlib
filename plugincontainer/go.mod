@@ -1,6 +1,6 @@
-module github.com/hashicorp/go-secure-stdlib/plugincontainer
+module github.com/openbao/go-secure-stdlib/plugincontainer
 
-go 1.20
+go 1.22.1
 
 require (
 	github.com/docker/docker v24.0.7+incompatible
@@ -40,3 +40,5 @@ require (
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20230525234030-28d5490b6b19 // indirect
 	gotest.tools/v3 v3.5.0 // indirect
 )
+
+retract [v0.1.0, v0.3.0]

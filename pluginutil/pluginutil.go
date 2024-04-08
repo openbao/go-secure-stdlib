@@ -18,7 +18,7 @@ import (
 	"strings"
 
 	gp "github.com/hashicorp/go-plugin"
-	"github.com/hashicorp/go-secure-stdlib/base62"
+	"github.com/openbao/go-secure-stdlib/base62"
 	"golang.org/x/crypto/sha3"
 )
 

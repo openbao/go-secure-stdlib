@@ -1,6 +1,6 @@
-module github.com/hashicorp/go-secure-stdlib/toggledlogger
+module github.com/openbao/go-secure-stdlib/toggledlogger
 
-go 1.20
+go 1.22.1
 
 require (
 	github.com/hashicorp/go-hclog v1.5.0
@@ -16,3 +16,5 @@ require (
 	golang.org/x/sys v0.0.0-20220503163025-988cb79eb6c6 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
+
+retract v0.1.0

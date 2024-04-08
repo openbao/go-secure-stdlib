@@ -1,3 +1,5 @@
-module github.com/hashicorp/go-secure-stdlib/fileutil
+module github.com/openbao/go-secure-stdlib/fileutil
 
-go 1.16
+go 1.22.1
+
+retract v0.1.0

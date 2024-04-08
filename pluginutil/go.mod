@@ -1,10 +1,12 @@
-module github.com/hashicorp/go-secure-stdlib/pluginutil/v2
+module github.com/openbao/go-secure-stdlib/pluginutil/v2
 
-go 1.20
+go 1.22.1
+
+replace github.com/openbao/go-secure-stdlib/base62 => ../base62
 
 require (
 	github.com/hashicorp/go-plugin v1.5.2
-	github.com/hashicorp/go-secure-stdlib/base62 v0.1.2
+	github.com/openbao/go-secure-stdlib/base62 v0.0.0-00010101000000-000000000000
 	github.com/stretchr/testify v1.8.4
 	golang.org/x/crypto v0.14.0
 )
@@ -29,3 +31,5 @@ require (
 	google.golang.org/protobuf v1.30.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
+
+retract [v2.0.0, v2.0.6]

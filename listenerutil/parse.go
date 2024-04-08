@@ -13,9 +13,9 @@ import (
 	"time"
 
 	"github.com/hashicorp/go-multierror"
-	"github.com/hashicorp/go-secure-stdlib/parseutil"
-	"github.com/hashicorp/go-secure-stdlib/strutil"
-	"github.com/hashicorp/go-secure-stdlib/tlsutil"
+	"github.com/openbao/go-secure-stdlib/parseutil"
+	"github.com/openbao/go-secure-stdlib/strutil"
+	"github.com/openbao/go-secure-stdlib/tlsutil"
 	"github.com/hashicorp/go-sockaddr"
 	"github.com/hashicorp/go-sockaddr/template"
 	"github.com/hashicorp/hcl"
