@@ -1,18 +1,25 @@
-module github.com/hashicorp/go-secure-stdlib/listenerutil
+module github.com/openbao/go-secure-stdlib/listenerutil
 
-go 1.20
+go 1.22.1
+
+replace (
+	github.com/openbao/go-secure-stdlib/parseutil => ../parseutil
+	github.com/openbao/go-secure-stdlib/reloadutil => ../reloadutil
+	github.com/openbao/go-secure-stdlib/strutil => ../strutil
+	github.com/openbao/go-secure-stdlib/tlsutil => ../tlsutil
+)
 
 require (
 	github.com/google/go-cmp v0.6.0
 	github.com/hashicorp/cli v1.1.6
 	github.com/hashicorp/go-multierror v1.1.1
-	github.com/hashicorp/go-secure-stdlib/parseutil v0.1.8
-	github.com/hashicorp/go-secure-stdlib/reloadutil v0.1.1
-	github.com/hashicorp/go-secure-stdlib/strutil v0.1.2
-	github.com/hashicorp/go-secure-stdlib/tlsutil v0.1.3
 	github.com/hashicorp/go-sockaddr v1.0.6
 	github.com/hashicorp/hcl v1.0.0
 	github.com/jefferai/isbadcipher v0.0.0-20190226160619-51d2077c035f
+	github.com/openbao/go-secure-stdlib/parseutil v0.0.0-00010101000000-000000000000
+	github.com/openbao/go-secure-stdlib/reloadutil v0.0.0-00010101000000-000000000000
+	github.com/openbao/go-secure-stdlib/strutil v0.0.0-00010101000000-000000000000
+	github.com/openbao/go-secure-stdlib/tlsutil v0.0.0-00010101000000-000000000000
 	github.com/stretchr/testify v1.8.4
 )
 
@@ -44,3 +51,5 @@ require (
 	gopkg.in/check.v1 v1.0.0-20190902080502-41f04d3bba15 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
+
+retract [v0.1.0, v0.1.9]

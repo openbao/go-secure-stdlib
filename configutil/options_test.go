@@ -7,8 +7,8 @@ import (
 	"testing"
 
 	"github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/go-secure-stdlib/listenerutil"
-	"github.com/hashicorp/go-secure-stdlib/pluginutil/v2"
+	"github.com/openbao/go-secure-stdlib/listenerutil"
+	"github.com/openbao/go-secure-stdlib/pluginutil/v2"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

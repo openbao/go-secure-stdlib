@@ -8,7 +8,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/hashicorp/go-secure-stdlib/listenerutil"
+	"github.com/openbao/go-secure-stdlib/listenerutil"
 	"github.com/stretchr/testify/require"
 )
 

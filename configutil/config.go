@@ -9,8 +9,8 @@ import (
 	"io/ioutil"
 	"time"
 
-	"github.com/hashicorp/go-secure-stdlib/listenerutil"
-	"github.com/hashicorp/go-secure-stdlib/parseutil"
+	"github.com/openbao/go-secure-stdlib/listenerutil"
+	"github.com/openbao/go-secure-stdlib/parseutil"
 	"github.com/hashicorp/hcl"
 	"github.com/hashicorp/hcl/hcl/ast"
 )

@@ -15,8 +15,8 @@ import (
 	"strconv"
 
 	"github.com/hashicorp/cli"
-	"github.com/hashicorp/go-secure-stdlib/reloadutil"
-	"github.com/hashicorp/go-secure-stdlib/tlsutil"
+	"github.com/openbao/go-secure-stdlib/reloadutil"
+	"github.com/openbao/go-secure-stdlib/tlsutil"
 	"github.com/jefferai/isbadcipher"
 )
 

@@ -11,9 +11,7 @@ them.
 When contributing in any way to the project (new issue, PR, etc), please be
 aware that our team identifies with many gender pronouns. Please remember to use
 nonbinary pronouns (they/them) and gender neutral language ("Hello folks") when
-addressing our team. For more reading on our code of conduct, please see the
-[HashiCorp community
-guidelines](https://www.hashicorp.com/community-guidelines).  
+addressing our team. For more reading on our code of conduct.  
 
 ## Issue Reporting
 ### Reporting Security Related Vulnerabilities
@@ -36,7 +34,7 @@ If you believe you found a bug, please:
 
 Once you've verified the above, feel free to open a bug fix issue template type
 from our [issue
-selector](https://github.com/hashicorp/go-secure-stdlib/issues/new/choose) and
+selector](https://github.com/openbao/go-secure-stdlib/issues/new/choose) and
 we'll do our best to triage it as quickly as possible. 
 
 ## Pull Requests
@@ -48,7 +46,7 @@ feature that you want to write. We may  already be working on it; even if we
 aren't, we need to ensure that both the feature and its proposed implementation
 is aligned with our road map, vision, and standards for the project. We're happy
 to help walk through that via a [feature request
-issue](https://github.com/hashicorp/go-secure-stdlib/issues/new/choose).
+issue](https://github.com/openbao/go-secure-stdlib/issues/new/choose).
 
 ### Submitting a New Pull Request
 
