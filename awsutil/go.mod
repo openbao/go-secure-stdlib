@@ -1,4 +1,4 @@
-module github.com/openabo/go-secure-stdlib/awsutil/v2
+module github.com/openbao/go-secure-stdlib/awsutil/v2
 
 go 1.22.1
 
@@ -34,3 +34,5 @@ require (
 	gopkg.in/check.v1 v1.0.0-20180628173108-788fd7840127 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
+
+retract v2.0.0
