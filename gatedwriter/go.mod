@@ -1,4 +1,4 @@
-module github.com/openabo/go-secure-stdlib/gatedwriter
+module github.com/openbao/go-secure-stdlib/gatedwriter
 
 go 1.22.1
 
